@@ -4,7 +4,6 @@ import { useState } from 'react'
 import { Sidebar } from './sidebar'
 import { ProductGrid } from './product-grid'
 import {  FilterOptions } from '@/lib/products'
-import { ProductTypeSelect } from '@/elysia/products/product.schema'
 import { CategoryTypeSelect, ProductWithCategory } from '@/types'
 
 interface ProductPageProps {

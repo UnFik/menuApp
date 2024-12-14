@@ -7,11 +7,9 @@ import { Button } from "./ui/button"
 import { CartItem } from "@/types"
 import { getCartItems, removeFromCart, updateQuantity } from "@/actions/cart"
 import Image from "next/image"
-import { useRouter } from "next/navigation"
 import { useCart } from "@/contexts/cart-context"
 
 export function CartSheet() {
-    const router = useRouter()
   const [items, setItems] = useState<CartItem[]>([])
   const [open, setOpen] = useState(false)
   const { cartCount, updateCartCount } = useCart()

@@ -44,7 +44,7 @@ async function main() {
       description: "Lumpia sayur segar dengan saus asam manis",
       categoryId: 1,
       price: 25000,
-      image: "https://source.unsplash.com/random/800x600/?spring-roll",
+      image: "/menu/spring-roll.jpg",
       rating: 4.5
     },
     {
@@ -52,7 +52,7 @@ async function main() {
       description: "Roti panggang dengan topping tomat dan keju",
       categoryId: 1,
       price: 30000,
-      image: "https://source.unsplash.com/random/800x600/?bruschetta",
+      image: "/menu/bruschetta.jpg",
       rating: 4.3
     },
     {
@@ -60,7 +60,7 @@ async function main() {
       description: "Salad segar dengan saus caesar dan crouton",
       categoryId: 1,
       price: 35000,
-      image: "https://source.unsplash.com/random/800x600/?caesar-salad",
+      image: "/menu/caesar-salad.jpg",
       rating: 4.4
     },
     {
@@ -68,7 +68,7 @@ async function main() {
       description: "Nasi goreng dengan telur, ayam, dan sayuran",
       categoryId: 2,
       price: 45000,
-      image: "https://source.unsplash.com/random/800x600/?fried-rice",
+      image: "/menu/nasi-goreng.jpg",
       rating: 4.8
     },
     {
@@ -76,7 +76,7 @@ async function main() {
       description: "Steak daging sapi dengan saus mushroom",
       categoryId: 2,
       price: 120000,
-      image: "https://source.unsplash.com/random/800x600/?beef-steak",
+      image: "/menu/beef-steak.jpg",
       rating: 4.7
     },
     {
@@ -84,7 +84,7 @@ async function main() {
       description: "Pasta dengan saus krim dan bacon",
       categoryId: 2,
       price: 65000,
-      image: "https://source.unsplash.com/random/800x600/?spaghetti-carbonara",
+      image: "/menu/spaghetti-carbonara.jpg",
       rating: 4.6
     },
     {
@@ -92,7 +92,7 @@ async function main() {
       description: "Ikan salmon panggang dengan saus lemon butter",
       categoryId: 2,
       price: 95000,
-      image: "https://source.unsplash.com/random/800x600/?grilled-salmon",
+      image: "/menu/grilled-salmon.jpg",
       rating: 4.7
     },
     {
@@ -100,7 +100,7 @@ async function main() {
       description: "Ayam goreng tepung dengan saus tonkatsu",
       categoryId: 2,
       price: 55000,
-      image: "https://source.unsplash.com/random/800x600/?chicken-katsu",
+      image: "/menu/chicken-katsu.jpg",
       rating: 4.5
     },
     {
@@ -108,7 +108,7 @@ async function main() {
       description: "Daging sapi masak rendang khas Padang",
       categoryId: 2,
       price: 75000,
-      image: "https://source.unsplash.com/random/800x600/?rendang",
+      image: "/menu/rendang.jpg",
       rating: 4.9
     },
     {
@@ -116,7 +116,7 @@ async function main() {
       description: "Sup asam pedas khas Thailand dengan seafood",
       categoryId: 2,
       price: 85000,
-      image: "https://source.unsplash.com/random/800x600/?tom-yum",
+      image: "/menu/tom-yum.jpg",
       rating: 4.6
     },
     {
@@ -124,7 +124,7 @@ async function main() {
       description: "Dessert klasik Italia dengan kopi dan mascarpone",
       categoryId: 3,
       price: 40000,
-      image: "https://source.unsplash.com/random/800x600/?tiramisu",
+      image: "/menu/tiramisu.jpg",
       rating: 4.7
     },
     {
@@ -132,7 +132,7 @@ async function main() {
       description: "Kue cokelat dengan lelehan cokelat di tengah",
       categoryId: 3,
       price: 45000,
-      image: "https://source.unsplash.com/random/800x600/?chocolate-lava-cake",
+      image: "/menu/chocolate-lava-cake.jpg",
       rating: 4.8
     },
     {
@@ -140,7 +140,7 @@ async function main() {
       description: "Custard vanilla dengan lapisan karamel renyah",
       categoryId: 3,
       price: 35000,
-      image: "https://source.unsplash.com/random/800x600/?creme-brulee",
+      image: "/menu/creme-brulee.jpg",
       rating: 4.5
     },
     {
@@ -148,7 +148,7 @@ async function main() {
       description: "Es krim dengan topping buah dan saus cokelat",
       categoryId: 3,
       price: 30000,
-      image: "https://source.unsplash.com/random/800x600/?ice-cream-sundae",
+      image: "/menu/ice-cream-sundae.jpg",
       rating: 4.4
     },
     {
@@ -156,7 +156,7 @@ async function main() {
       description: "Campuran buah segar dengan yogurt dan granola",
       categoryId: 3,
       price: 35000,
-      image: "https://source.unsplash.com/random/800x600/?fruit-parfait",
+      image: "/menu/fruit-parfait.jpg",
       rating: 4.3
     },
     {
@@ -164,7 +164,7 @@ async function main() {
       description: "Ketan dengan mangga dan santan",
       categoryId: 3,
       price: 35000,
-      image: "https://source.unsplash.com/random/800x600/?mango-sticky-rice",
+      image: "/menu/mango-sticky-rice.jpg",
       rating: 4.6
     },
     {
@@ -172,7 +172,7 @@ async function main() {
       description: "Kopi hitam pekat single shot",
       categoryId: 4,
       price: 20000,
-      image: "https://source.unsplash.com/random/800x600/?espresso",
+      image: "/menu/espresso.jpg",
       rating: 4.5
     },
     {
@@ -180,7 +180,7 @@ async function main() {
       description: "Espresso dengan steamed milk dan foam",
       categoryId: 4,
       price: 25000,
-      image: "https://source.unsplash.com/random/800x600/?cappuccino",
+      image: "/menu/cappuccino.jpg",
       rating: 4.6
     },
     {
@@ -188,7 +188,7 @@ async function main() {
       description: "Matcha dengan susu panas",
       categoryId: 4,
       price: 28000,
-      image: "https://source.unsplash.com/random/800x600/?green-tea-latte",
+      image: "/menu/green-tea-latte.jpg",
       rating: 4.4
     },
     {
@@ -196,7 +196,7 @@ async function main() {
       description: "Jus jeruk segar",
       categoryId: 4,
       price: 20000,
-      image: "https://source.unsplash.com/random/800x600/?orange-juice",
+      image: "/menu/orange-juice.jpg",
       rating: 4.3
     },
     {
@@ -204,7 +204,7 @@ async function main() {
       description: "Smoothie mangga dengan yogurt",
       categoryId: 4,
       price: 25000,
-      image: "https://source.unsplash.com/random/800x600/?mango-smoothie",
+      image: "/menu/mango-smoothie.jpg",
       rating: 4.5
     },
     {
@@ -212,7 +212,7 @@ async function main() {
       description: "Teh dengan perasan lemon segar",
       categoryId: 4,
       price: 18000,
-      image: "https://source.unsplash.com/random/800x600/?lemon-tea",
+      image: "/menu/lemon-tea.jpg",
       rating: 4.2
     },
     {
@@ -220,7 +220,7 @@ async function main() {
       description: "Cumi goreng tepung dengan saus tartar",
       categoryId: 1,
       price: 40000,
-      image: "https://source.unsplash.com/random/800x600/?calamari",
+      image: "/menu/calamari.jpg",
       rating: 4.4
     },
     {
@@ -228,7 +228,7 @@ async function main() {
       description: "Sup krim jamur dengan crouton",
       categoryId: 1,
       price: 35000,
-      image: "https://source.unsplash.com/random/800x600/?mushroom-soup",
+      image: "/menu/mushroom-soup.jpg",
       rating: 4.3
     },
     {
@@ -236,7 +236,7 @@ async function main() {
       description: "Ikan dori goreng tepung dengan kentang goreng",
       categoryId: 2,
       price: 65000,
-      image: "https://source.unsplash.com/random/800x600/?fish-and-chips",
+      image: "/menu/fish-and-chips.jpg",
       rating: 4.5
     },
     {
@@ -244,7 +244,7 @@ async function main() {
       description: "Burger daging sapi dengan keju dan sayuran",
       categoryId: 2,
       price: 55000,
-      image: "https://source.unsplash.com/random/800x600/?beef-burger",
+      image: "/menu/beef-burger.jpg",
       rating: 4.6
     },
     {
@@ -252,7 +252,7 @@ async function main() {
       description: "Pie apel dengan es krim vanilla",
       categoryId: 3,
       price: 35000,
-      image: "https://source.unsplash.com/random/800x600/?apple-pie",
+      image: "/menu/apple-pie.jpg",
       rating: 4.4
     },
     {
@@ -260,7 +260,7 @@ async function main() {
       description: "Kue keju New York style",
       categoryId: 3,
       price: 40000,
-      image: "https://source.unsplash.com/random/800x600/?cheesecake",
+      image: "/menu/cheesecake.jpg",
       rating: 4.7
     },
     {
@@ -268,7 +268,7 @@ async function main() {
       description: "Minuman segar dengan mint dan lime",
       categoryId: 4,
       price: 35000,
-      image: "https://source.unsplash.com/random/800x600/?mojito",
+      image: "/menu/mojito.jpg",
       rating: 4.5
     },
     {
@@ -276,9 +276,9 @@ async function main() {
       description: "Milkshake vanilla dengan whipped cream",
       categoryId: 4,
       price: 30000,
-      image: "https://source.unsplash.com/random/800x600/?milkshake",
+      image: "/menu/milkshake.jpg",
       rating: 4.4
-    },
+    }
   ]);
 
   console.log("Products created!");
